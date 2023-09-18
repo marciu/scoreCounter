@@ -1,0 +1,114 @@
+body {
+  color: white;
+  text-align: center;
+}
+h3 {
+  margin: 0;
+}
+#scoreBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 575px;
+  height: 385px;
+  margin: 0 auto;
+  background-color: #1b244a;
+}
+#scoreCounters {
+  display: flex;
+  flex-direction: row;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana;
+  font-weight: 700;
+  color: #eeeeee;
+  font-size: 40px;
+  line-height: 35.9px;
+}
+
+#score-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+  margin: 25px;
+  font-size: 90px;
+  font-family: font;
+  color: #f94f6d;
+}
+
+#guest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana;
+  font-weight: 700;
+  color: #eeeeee;
+  font-size: 40px;
+  line-height: 35.9px;
+}
+
+#score-guest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+  margin: 25px;
+  font-size: 90px;
+  line-height: 126.67px;
+  font-family: font;
+  color: #f94f6d;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  color: #9aabd8;
+  margin: 5px;
+}
+
+.btn-reset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 45px;
+  background-color: transparent;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  color: #9aabd8;
+  margin: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+@font-face {
+  font-family: font;
+  src: url("DS-DIGIT.TTF");
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+}
